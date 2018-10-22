@@ -66,6 +66,7 @@ sheet_with_events = DispatchWithEvents(sheet, WorksheetEventHandler)
 
 
 # Process Windows messages periodically
+# NOTE: This isn't necessary if running in Excel.
 import pythoncom
 import time
 
